@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+	  <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\CBLAdminPart\CBLAdminPart\CBLAdminPart.csproj" />
+    <ProjectReference Include="..\..\CBLClientPart\CBLClientPart\CBLClientPart.csproj" />
+  </ItemGroup>
+
+</Project>
